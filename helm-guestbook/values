@@ -1,0 +1,10 @@
+replicaCount: 1
+
+image:
+  #repository: gcr.io/heptio-images/ks-guestbook-demo
+  repository: yesinaleksey/k8s-react
+  tag: v1
+  pullPolicy: IfNotPresent
+
+service:
+  type: NodePort
